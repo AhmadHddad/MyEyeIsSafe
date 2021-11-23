@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from "../data/mongoose";
 
 export default async function dbConnect() {
   const connectionStr = 'mongodb://localhost:27017/test';
