@@ -6,3 +6,4 @@ export default mongoose;
 
 export const Schema = mongoose.Schema;
 export const Document = mongoose.Document;
+export const model = mongoose.model
